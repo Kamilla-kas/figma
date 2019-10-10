@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #e5e5e5;
+}
+.h2{
+    padding-left: 90px;
+}
+.one{
+    display: flex;
+    margin: 0 -10px;
+}
+.one .box{
+    width: 185px;
+    height: 250px;
+    background: #ffffff;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding: 30px 30px 215px;
+    display: inline-block;
+    text-align: center;
+}
+.one .at{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 38px;
+    background: #f13c6e;
+    border-radius: 30px;
+}
+.two{
+    display: flex;
+    margin: 0 -10px;
+}
+.two .box{
+    width: 530px;
+    height: 0;
+    background: #f13c6e;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding: 30px 30px 215px;
+    display: inline-block;
+}
+.two span:before{
+    content: '';
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    padding-left:2px;
+    padding-right:2px;
+    padding-bottom:4px;
+    left:-2px;
+    top:5px;
+    z-index:-1;
+    border-radius: 6px;
+    box-shadow: 0 1px 0 #fff;
+}
+.image{
+    margin-right: 335px;
+    margin-bottom: 100px;
+}
+.two .at{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 38px;
+    outline: 2px solid lightgrey;
+    text-align: center;
+}
+.e-mail{
+    font-family: 'Lato', sans-serif;
+    border: none;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 16px;
+    padding: 15px;
+    width: 100%;
+    background: #454545;
+}
